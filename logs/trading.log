@@ -1,0 +1,77 @@
+2026-06-01 21:23:00,281 - INFO - Request:
+{
+ "symbol": "BTCUSDT",
+ "side": "BUY",
+ "type": "MARKET",
+ "quantity": 0.001
+}
+2026-06-01 21:23:02,642 - ERROR - Binance API Exception: Margin is insufficient. (Code: -2019)
+2026-06-01 21:39:27,388 - INFO - Request:
+{
+ "symbol": "BTCUSDT",
+ "side": "BUY",
+ "type": "MARKET",
+ "quantity": 0.001
+}
+2026-06-01 21:39:29,354 - INFO - Response:
+{
+ "orderId": 13710508920,
+ "symbol": "BTCUSDT",
+ "status": "NEW",
+ "clientOrderId": "x-Cb7ytekJa0afa29d3c44d0a2d31db4",
+ "price": "0.00",
+ "avgPrice": "0.00",
+ "origQty": "0.0010",
+ "executedQty": "0.0000",
+ "cumQty": "0.0000",
+ "cumQuote": "0.000000",
+ "timeInForce": "GTC",
+ "type": "MARKET",
+ "reduceOnly": false,
+ "closePosition": false,
+ "side": "BUY",
+ "positionSide": "BOTH",
+ "stopPrice": "0.00",
+ "workingType": "CONTRACT_PRICE",
+ "priceProtect": false,
+ "origType": "MARKET",
+ "priceMatch": "NONE",
+ "selfTradePreventionMode": "EXPIRE_MAKER",
+ "goodTillDate": 0,
+ "updateTime": 1780330170263
+}
+2026-06-01 21:40:00,638 - INFO - Request:
+{
+ "symbol": "BTCUSDT",
+ "side": "SELL",
+ "type": "LIMIT",
+ "quantity": 0.001,
+ "price": 110000.0
+}
+2026-06-01 21:40:04,316 - INFO - Response:
+{
+ "orderId": 13710570260,
+ "symbol": "BTCUSDT",
+ "status": "NEW",
+ "clientOrderId": "x-Cb7ytekJe24db2c9a3bbee25672e64",
+ "price": "110000.00",
+ "avgPrice": "0.00",
+ "origQty": "0.0010",
+ "executedQty": "0.0000",
+ "cumQty": "0.0000",
+ "cumQuote": "0.000000",
+ "timeInForce": "GTC",
+ "type": "LIMIT",
+ "reduceOnly": false,
+ "closePosition": false,
+ "side": "SELL",
+ "positionSide": "BOTH",
+ "stopPrice": "0.00",
+ "workingType": "CONTRACT_PRICE",
+ "priceProtect": false,
+ "origType": "LIMIT",
+ "priceMatch": "NONE",
+ "selfTradePreventionMode": "EXPIRE_MAKER",
+ "goodTillDate": 0,
+ "updateTime": 1780330205237
+}
